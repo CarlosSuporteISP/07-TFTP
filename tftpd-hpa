@@ -1,0 +1,7 @@
+# /etc/default/tftpd-hpa
+
+RUN_DAEMON="yes"
+TFTP_USERNAME="suporteisptftp"
+TFTP_DIRECTORY="/home/suporteisptftp/tftp"
+TFTP_ADDRESS=":69"
+TFTP_OPTIONS="--create --secure --umask 006 --permissive"
